@@ -10,26 +10,6 @@ body{
   background: #000;
 }
 
-.home-button {
-  background-color: transparent;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #fff;
-  border: none;
-  border-radius: 15px;
-  padding: 10px 20px;
-  font-size: 30px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.home-button:hover {
-  background-color: #ffffff10;
-  color: #fff;
-}
-
 .gamecontainer{
     display: flex;
     justify-content: center;
@@ -86,4 +66,26 @@ body{
   {
     transform: translateY(-10vh) scale(1);
   }
+}
+
+/* Home Section */
+
+.home-button {
+  background-color: transparent;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.home-button:hover {
+  background-color: #ffffff10;
+  color: #fff;
 }
