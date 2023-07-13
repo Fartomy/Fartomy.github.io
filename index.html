@@ -1,1 +1,30 @@
-Fartomy!
+<!doctype html>
+<html>
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  </style>
+  <title>Home</title>
+  <link rel="icon" type="image/png" href="/cosmonaut-ico.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <ul>
+    <li><a href="/play/play.html">Play</a></li>
+    <li><a href="/games/games.html">Games</a></li>
+    <li><a href="/showbox/showbox.html">Showbox</a></li>
+    <li><a href="/me/me.html">Me</a></li>
+    <li><a href="github.com/Fartomy">Quit</a></li>
+    <div class="cursor"></div>
+  </ul>
+  <script>
+    const cursor = document.querySelector('.cursor');
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+    })
+  </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  </style>
+  <title>Games</title>
+  <link rel="icon" type="image/png" href="/cosmonaut-ico.png">
+  <link rel="stylesheet" href="games.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h3>Volant Clown</h3>
+        <p>Mobile Game</p>
+          <a href="https://play.google.com/store/apps/details?id=com.Watourglass.VolantClown&pli=1">Download</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h3>Barbal</h3>
+        <p>Mobile Game</p>
+          <a href="https://play.google.com/store/apps/details?id=com.watourglass.barbal">Download</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h3>Processing..</h3>
+        <p>?</p>
+          <a href="#">?</a>
+      </div>
+    </div>
+  </div>
+  <div class="pyramid">
+    <div class="glow"></div>
+    <div>
+      <span style="--i:0"></span>
+      <span style="--i:1"></span>
+      <span style="--i:2"></span>
+      <span style="--i:3"></span>
+    </div>
+  </div>
+  <div class="pyramid-2">
+    <div class="glow"></div>
+    <div>
+      <span style="--i:0"></span>
+      <span style="--i:1"></span>
+      <span style="--i:2"></span>
+      <span style="--i:3"></span>
+    </div>
+  </div>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 25,
+		speed: 10000,
+    scale: 1.5,
+	});
+  </script>
+      <button class="home-button" onclick="redirectToPage()">HOME</button>
+      <script>
+          function redirectToPage() {
+            var url = "https://fartomy.github.io";
+            window.location.href = url;
+          }
+  </script>
+</body>
+</html>
