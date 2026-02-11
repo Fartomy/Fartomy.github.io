@@ -59,6 +59,10 @@ body{
 .container .card:nth-child(2):hover {
     background-color: #1a707b;
   }
+  
+.container .card:nth-child(3):hover {
+    background-color: #ff0000;
+  }
 
 .container .card .content h3{
     font-size: 1.8em;
